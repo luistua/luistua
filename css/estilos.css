@@ -30,6 +30,9 @@ body {
   padding: 150px 100px 160px 120px;
 }
 
+.contenedor {
+
+}
 
 .nombre {
   font-size: 15px;
@@ -81,7 +84,6 @@ body {
 
     grid-template-areas: "foto"
                          "datos";
-
   }
 
   .datos {
@@ -95,6 +97,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
-    background-size: 100%;
+    background-size: cover;
   }
 }
